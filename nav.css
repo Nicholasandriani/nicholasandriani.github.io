@@ -1,23 +1,23 @@
-nav ul {
+ul {
     list-style: none;
     margin: 0;
     padding: 0;
   }
   
-  nav li {
+li {
     margin: 10px;
     padding: 10px;
     border: 1px solid #ccc;
     display: inline-block;
   }
 
-  nav ul {
+ul {
     list-style: none;
     margin: 0;
     padding: 0;
   }
   
-  nav li {
+li {
     display: inline-block;
     margin: 0 10px;
     padding: 10px;
@@ -69,60 +69,19 @@ nav ul {
       
       --------
 
-      nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
+    ul {
         display: flex;
-        flex-direction: row;
-      }
-      
-      nav ul li {
-        position: relative; /* Add position relative to the parent li element */
-        display: inline-block;
-      }
-      
-      nav ul li a {
-        display: inline-block;
-        padding: 10px;
-        margin-right: 10px;
-        text-decoration: none;
-        color: #333;
-      }
-      
-      nav ul li a:hover {
-        background-color: #333;
-        color: #fff;
-      }
-      
-      nav ul li ul {
-        position: absolute; /* Position the ul element absolutely */
-        top: 100%; /* Position it below the parent li element */
-        left: 0;
-        list-style: none;
-        margin: 0;
+        flex-direction: column;
+        list-style-type: none;
         padding: 0;
-        display: none;
-      }
-      
-      nav ul li:hover ul {
-        display: block;
-      }
-      
-      nav ul li ul li {
-        display: block;
-      }
-      
-      nav ul li ul li a {
-        display: block;
-        padding: 10px;
-        margin: 0;
+        margin: 0; }
+    li {
+        background: #c8dfee;
+        width: 150px;
+        margin: 0 15px 15px 0;
+        padding: 5px;
+        text-align: center; }
+    a {
         text-decoration: none;
-        color: #333;
-      }
-      
-      nav ul li ul li a:hover {
-        background-color: #333;
-        color: #fff;
-      }
-      
+        color: #000; }
+    
