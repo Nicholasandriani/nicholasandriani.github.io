@@ -67,3 +67,62 @@ nav ul {
         color: #fff;
       }
       
+      --------
+
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+      }
+      
+      nav ul li {
+        position: relative; /* Add position relative to the parent li element */
+        display: inline-block;
+      }
+      
+      nav ul li a {
+        display: inline-block;
+        padding: 10px;
+        margin-right: 10px;
+        text-decoration: none;
+        color: #333;
+      }
+      
+      nav ul li a:hover {
+        background-color: #333;
+        color: #fff;
+      }
+      
+      nav ul li ul {
+        position: absolute; /* Position the ul element absolutely */
+        top: 100%; /* Position it below the parent li element */
+        left: 0;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: none;
+      }
+      
+      nav ul li:hover ul {
+        display: block;
+      }
+      
+      nav ul li ul li {
+        display: block;
+      }
+      
+      nav ul li ul li a {
+        display: block;
+        padding: 10px;
+        margin: 0;
+        text-decoration: none;
+        color: #333;
+      }
+      
+      nav ul li ul li a:hover {
+        background-color: #333;
+        color: #fff;
+      }
+      
