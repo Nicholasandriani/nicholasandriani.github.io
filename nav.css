@@ -22,28 +22,22 @@ nav ul {
     margin: 0 10px;
     padding: 10px;
     border: 1px solid #ccc;
+
+    --
+
+    nav ul li {
+        position: relative;
+      }
       
-      --
+      nav ul li ul {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
       
-      nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  display: inline-block;
-  margin: 0 10px;
-  padding: 10px;
-  border: 1px solid #ccc;
-}
-
-nav li a {
-  color: #333;
-  text-decoration: none;
-}
-
-nav li a:hover {
-  background-color: #333;
-  color: #fff;
-}
+      nav ul li ul li {
+        display: block;
+      }
