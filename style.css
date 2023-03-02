@@ -37,7 +37,18 @@ p {
   line-height: 1.5;
 }
 
-h2 + p::first-letter {
+p::first-letter{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: brown;
+}
+
+p .indent::first-line {
+  text-indent: 10em;
+}
+
+
+h1 + p::first-letter {
   color: white;
   background-color: black;
   border-radius: 2px;
