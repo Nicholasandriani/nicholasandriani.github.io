@@ -31,3 +31,19 @@ Resume {
 a:hover{
  border:1px solid red;  
 }
+
+p {
+  width: 500px;
+  line-height: 1.5;
+}
+
+h2 + p::first-letter {
+  color: white;
+  background-color: black;
+  border-radius: 2px;
+  box-shadow: 3px 3px 0 red;
+  font-size: 250%;
+  padding: 6px 3px;
+  margin-right: 6px;
+  float: left;
+}
