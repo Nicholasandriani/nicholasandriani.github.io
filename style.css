@@ -1,36 +1,45 @@
+/* Default styles for all screen sizes */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #ff7676;
+  height: 50px;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
 h1 {
-  color: #ff00ff;
-}
-
-Resume {
-  border: dotted;
-  color: white;
-  padding: 16px 32px;
+  font-size: 36px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
 }
 
-.button {
-  background-color: #4CAF50;
-  border: dotted;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+p {
+  font-size: 18px;
+  line-height: 1.5;
 }
 
-a:hover{
- border:1px solid red;  
-}
+
 
 p::first-letter{
   font-size: 1.5rem;
@@ -52,4 +61,52 @@ h1 + p::first-letter {
   padding: 6px 3px;
   margin-right: 6px;
   float: left;
+}
+
+
+h4 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+blockquote {
+  font-size: 18px;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #615c5c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+@media all and (max-width: 500px) {
+  body { 
+    color: rgb(69, 41, 30);
+
+  }
+}
+
+@media (max-width: 600px) {
+  p {
+    font-size: 2.25rem;
+  }
+
 }
