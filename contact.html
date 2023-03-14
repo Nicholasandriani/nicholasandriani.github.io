@@ -13,7 +13,7 @@
         .button {
           background-color: #4CAF50;
           border: dotted;
-          color: white;
+          color: rgb(255, 255, 255);
           padding: 15px 32px;
           text-align: center;
           text-decoration: none;
@@ -22,41 +22,9 @@
           margin: 4px 2px;
           cursor: pointer;
         }
-        </style>
         
+        </style>
 
-	<title>CSS Grid</title>
-     <body>
-	<style type="text/css">
-		.wrapper {
-			display: grid;
-			grid-template-columns: 1fr 5fr 2fr;
-			grid-template-rows: 5fr 20fr 5fr;
-			grid-gap: 10px;
-			height: 720px;
-		}
-
-		header {
-			grid-column-start: 1;
-			grid-column-end: 4;
-		}
-
-        nav 
-
-		footer {
-      color: #e05858;
-			grid-column-start: 1;
-			grid-column-end: 4;
-		}
-
-		.wrapper * {
-			background: orange;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			margin-bottom: 1px;
-			margin-right: 1px;
-		}
 	</style>
 </head>
 <body>
@@ -80,12 +48,16 @@
     </nav>
 <body>
 	<h1>Contact</h1>
-  Email: nr5dd@umsystem.edu
-  <div>
-  Social Media:</div>
-  Twitter: @nickandriani
-  <div>
-  Instagram: @nicholasandriani</div>
+
+
+  <div class="wrapper">
+    <div>Social Media:</div></nav>
+    <div class="items contents"><body>
+      Email: nr5dd@umsystem.edu | Twitter: @nickandriani | Instagram: @nicholasandriani
+  </div>
 </body>
+<footer>
+ Feel free to reach out with any questions, comments or concerns. I look forward to hearing from you!
+</footer>
 <footer>Created by Nicholas Rankin - copyright 2023 nr5dd@umsystem.edu</footer>
 </html>

@@ -90,8 +90,8 @@ button {
 }
 
 footer {
-  background-color: #615c5c;
-  color: white;
+  background-color: #f4f0f0;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 20px;
   margin-top: 50px;
@@ -148,4 +148,48 @@ nav li:hover {
   width: 30%;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: 5fr 5fr 5fr;
+  grid-template-rows: 5fr 20fr 5fr;
+  grid-gap: 10px;
+  height: 300px;
+}
 
+header {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+
+.wrapper * {
+  background: #fa4e6e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1px;
+  margin-right: 1px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 5fr 2fr;
+  grid-template-rows: 5fr 20fr 5fr;
+  grid-gap: 10px;
+  height: 720px;
+}
+
+header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+
+
+.wrapper * {
+  background: #fa4e6e(156, 133, 90);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1px;
+  margin-right: 1px;
+}
