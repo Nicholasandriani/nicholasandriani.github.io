@@ -130,3 +130,64 @@ nav ul ul li a:hover {
 }
 
 
+/*set the active page class to any <li> that has the class*/
+
+  #hamburger {
+    display: inline-block;
+    padding-left: 20px;
+    width: 26px;
+    float: left;
+    font-size: 2em;
+    }
+
+  nav>ul li {
+  position: relative; /*we must add a position to our main navigation bar so we
+  can position a drop-down properly */
+  text-align: center;
+  font-weight: bold;
+  color: darkmagenta;
+  float: left;
+  }
+
+  nav li {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 15px 15px 15px;
+  width: 150px; /*this is important to set so our drop-down doesn't go across the
+  page*/
+  margin: 2px;
+  }
+  
+  /*position sub-menu or drop-down*/
+  nav ul>li ul {
+  position: absolute;
+  top: 100%;
+  display: none;
+  }
+  nav ul ul li {
+  float:none;
+  }
+  /*special hover to display the drop-down*/
+  nav>ul>li:hover>ul{
+  display: block;
+  }
+  @media only screen and (max-width: 640px) {
+  header {
+  position: relative;
+  height: 40px;
+  display: block;
+  width: 100%;
+  }
+  #hamburger {
+  display: inline-block;
+  padding-left: 20px;
+  width: 26px;
+  float: left;
+  font-size: 2em;
+  }
+  nav ul, nav:active ul {
+  display: none;
+  position: absolute;
+  padding: 20px 20px 20px 0px;
+  top: 20px;
+  }

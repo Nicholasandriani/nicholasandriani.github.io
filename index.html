@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-
-
+  
     <link href="style.css" rel="stylesheet">
     <link href="nav.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      .image-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+      }
 
-  
+      .image-container img {
+          max-width: 100%;
+          height: auto;
+          margin: 10px;
+      }
+  </style>
 <!--
-
 *****************************************************************************
-
 Title: Nicholas Rankin's Website</h1></p>
-
 Use: For the Web Design and Development course, ISLT 7355S.</p>
-
 Author: Nicholas Rankin</p>
-
 School/Term: The University of Missouri Spring Semester 2023</p>
-
 Developed: February, 03, 2023</p>
-
 <p>Tested: March, 02, 2023</p>
-
 -->
                <meta charset="utf-8">
                <title>Nicholas Rankin's Web Page Template</title>
@@ -30,7 +33,8 @@ Developed: February, 03, 2023</p>
 </head>
 <body>
         <nav>
-        <ul>
+          <label id="hamburger" onclick="toggleMenu()">&#9776;</label>
+          <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="reflection.html">Reflection</a></li>
@@ -46,15 +50,19 @@ Developed: February, 03, 2023</p>
         </ul>
       </nav>
     
-    <h1>Welcome to my portfolio.</h1>
+    <h1>Nicholas Rankin's Portfolio</h1>
     <p>
         <nav></nav> <nav></nav>
-    </p>I’ve selected the option to construct an academic portfolio as a portfolio would suit multiple ends and serve as a template for future growth and reiterations as I move throughout my diverse career interests. </p> 
+    </p><p>I’ve selected the option to construct an academic portfolio as a portfolio would suit multiple ends and serve as a template for future growth and reiterations as I move throughout my diverse career interests. </p> 
         The goals and objectives of this site remain true to my purpose to provide engaging and meaningful encounters between others and myself. I would like for this page to feel like an open dialogue and one that makes potential recruiters comfortable and at ease as they examine my credentials. The audience of this site include Professor Kueter, potential examinations from the faculty of the SISLT, and future recruiters. 
         On this website I will include a brief resume video, a statement about my educational and professional history, a link to my professional website, and a reflection on my previous research and experiences. <br> I will provide CV via PDF attachment. 
     </p>
-<p>
+    <div class="image-row">
+      <img src="https://nicholasandriani.github.io/Romani Wheel .jpg" alt="Projects add active link">
+      <img src="https://nicholasandriani.github.io/Romani Wheel .jpg" alt="About: add active link">
+      <img src="https://nicholasandriani.github.io/Romani Wheel .jpg" alt="Contact: add active link">
+    </div>
+  </p>
 <footer>nr5dd@umsystem.edu copyright 2023</footer>
-</p>
 </body>
 </html>
