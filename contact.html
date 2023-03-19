@@ -3,17 +3,14 @@
 <head>
     <meta charset="UTF-7">
         <link href="style.css" rel="stylesheet">
-	   <link href="nav.css" rel="stylesheet">
-	  <link rel="stylesheet" type="text/css" href="nav.css">
-	      <link href="style.css" rel="stylesheet">
-    <link href="nav.css" rel="stylesheet">
+        <link href="nav.css" rel="stylesheet">
 
     <style>
         <style>
         .button {
           background-color: #4CAF50;
           border: dotted;
-          color: rgb(255, 255, 255);
+          color: rgb(0, 0, 0);
           padding: 15px 32px;
           text-align: center;
           text-decoration: none;
@@ -23,12 +20,47 @@
           cursor: pointer;
         }
         
+        @media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+}
+
         </style>
 
 	</style>
 </head>
 <body>
+
+  
+
+  
     <nav>
+      
       <label id="hamburger">&#9776;</label>
 
       <ul>
@@ -43,11 +75,12 @@
             <li><a href="#writing">Writing</a></li>
           </ul>
         </li>
-        <li><a href="#Contact">Contact</a></li>
+        <li><a href="Contact.html">Contact</a></li>
       </ul>
     </nav>
 <body>
 	<h1>Contact</h1>
+  
 
 
   <div class="wrapper">

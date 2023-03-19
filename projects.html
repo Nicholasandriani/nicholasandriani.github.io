@@ -1,48 +1,77 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<head>
-<link href="style.css" rel="stylesheet">
-<link rel="stylesheet" href="nav.css">
-
-  
-  
-<!-- This is a complete comment header!
-<p><h1>Title: Nicholas Rankin's Website</h1></p>
-
-<p>Use: For the Web Design and Development course, ISLT 7355S.</p>
-
-<p>Author: Nicholas Rankin</p>
-
-<p>School/Term: The University of Missouri Spring Semester 2023</p>
-
-<p>Developed: February, 03, 2023</p>
-
-<p>Tested: February, 05, 2023</p>
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-7">
+    <link href="style.css" rel="stylesheet">
+    <link href="nav.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link href="style.css" rel="stylesheet">
+    <link href="nav.css" rel="stylesheet">
+    <style>
+        .image-row {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .image-row img {
+            width: 45%;
+            margin: 10px;
+        }
+        @media (max-width: 768px) {
+            .image-row img {
+                width: 90%;
+            }
+        }
+        .text-row {
+            text-align: center;
+            margin: 20px;
+        }
+    </style>
+<!--
+*****************************************************************************
+Title: Nicholas Rankin's Website</h1></p>
+Use: For the Web Design and Development course, ISLT 7355S.</p>
+Author: Nicholas Rankin</p>
+School/Term: The University of Missouri Spring Semester 2023</p>
+Developed: February, 03, 2023</p>
+<p>Tested: March, 02, 2023</p>
 -->
-               <meta charset="utf-8">
-               <title>Nicholas Rankin's Web Page Template</title>
-</head>
-<link href="style.css" rel="stylesheet">
-<link href="nav.css" rel="navigation">
+    <meta charset="utf-8">
+    <title>Nicholas Rankin's Web Page Template</title>
 
-<nav>
-    <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="about.html">About</a></li>
-  <li><a href="#">Project</a>
-    <ul>
-      <li><a href="#">Link 1</a></li>
-      <li><a href="#">Link 2</a></li>
-      <li><a href="#">Link 3</a></li>
-    </ul>
-  </li>
-    </ul>
-</nav>
-<body>
-   
-    <footer>
-        <p>nr5dd@umsystem.edu copyright 2023</p>
-    </footer>
-</body>
+  </head>
+  <body>
+    <nav>
+      <label id="hamburger" onclick="toggleMenu()">&#9776;</label>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="Projects.html">Projects</a>
+          <ul>
+            <li><a href="#Archaeology">Archaeology</a></li>
+            <li><a href="#Game Design">Game & Narrative Design</a></li>
+            <li><a href="#Instructional Design">Instructional Design</a></li>
+            <li><a href="#writing">Writing</a></li>
+          </ul>
+        </li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <h1>Projects</h1>
+    <p>
+      <nav></nav>
+      <nav></nav>
+    </p>
+    <div class="text-row">
+      <p>Archaeological excavation in Jordan | Game and Narrative Design | Writing</p>
+    </div>
+    <div class="image-row">
+      <img src="https://nicholasandriani.github.io/Romani Wheel .jpg" alt="#archaeology.html">
+      <img src="https://nicholasandriani.github.io/Romani Wheel .jpg" alt="#gamedesignandnarrativedesign.html">
+      <img src="https://nicholasandriani.github.io/Romani Wheel .jpg" alt="#instructionaldesign.html">
+    </div>
+    <footer>nr5dd@umsystem.edu copyright 2023</footer>
+  </body>
 </html>
