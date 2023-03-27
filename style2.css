@@ -307,3 +307,75 @@ video {
 footer i:hover {
   transform: scale(1.2);
 }
+
+@media print {
+  /* Set font size for all elements */
+  
+  {
+  font-size: 16px;
+  }
+  /* Set font color to black for all elements */
+  body, h1, p, ul, ol, li, blockquote, footer {
+  color: black;
+  }
+  
+  /* Set font family to serif */
+  body, h1, p, ul, ol, li, blockquote, footer {
+  font-family: Garmond, Raleway, sans-serif;
+  }
+  
+  /* Set margins and padding to 1 inch on all sides */
+  body {
+  margin: 1in;
+  padding: 0;
+  }
+  
+  /* Remove YouTube video player */
+  #youtube-video-player {
+  display: none;
+  }
+  
+  /* Reduce font size for h1 */
+  h1 {
+  font-size: 24px;
+  }
+  
+  /* Reduce font size and line-height for p */
+  p {
+  font-size: 16px;
+  line-height: 1.2;
+  }
+  
+  /* Reduce font size for ul and ol */
+  ul, ol {
+  font-size: 16px;
+  }
+  
+  /* Reduce font size and margin for li */
+  li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  }
+  
+  /* Reduce font size and margin for blockquote */
+  blockquote {
+  font-size: 16px;
+  margin: 10px 0;
+  }
+  
+  /* Reduce font size and margin for footer */
+  footer {
+  font-size: 16px;
+  margin-top: 20px;
+  }
+  
+  /* Set height for footer */
+  footer {
+  height: 40px;
+  }
+  
+  /* Remove logo from footer */
+  footer img {
+  display: none;
+  }
+  }
