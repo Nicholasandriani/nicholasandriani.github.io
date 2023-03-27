@@ -312,7 +312,7 @@ footer i:hover {
   /* Set font size for all elements */
   
   {
-  font-size: 16px;
+  font-size: 12px;
   }
   /* Set font color to black for all elements */
   body, h1, p, ul, ol, li, blockquote, footer {
@@ -337,35 +337,35 @@ footer i:hover {
   
   /* Reduce font size for h1 */
   h1 {
-  font-size: 24px;
+  font-size: 16px;
   }
   
   /* Reduce font size and line-height for p */
   p {
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.2;
   }
   
   /* Reduce font size for ul and ol */
   ul, ol {
-  font-size: 16px;
+  font-size: 12px;
   }
   
   /* Reduce font size and margin for li */
   li {
-  font-size: 16px;
+  font-size: 12px;
   margin-bottom: 10px;
   }
   
   /* Reduce font size and margin for blockquote */
   blockquote {
-  font-size: 16px;
+  font-size: 12px;
   margin: 10px 0;
   }
   
   /* Reduce font size and margin for footer */
   footer {
-  font-size: 16px;
+  font-size: 12px;
   margin-top: 20px;
   }
   
