@@ -1,101 +1,115 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<style>nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  nav ul li {
-    position: relative; /* Add position relative to the parent li element */
-    display: inline-block;
-  }
-  
-  nav ul li a {
-    display: inline-block;
-    padding: 10px;
-    margin-right: 10px;
-    text-decoration: none;
-    color: #333;
-  }
-  
-  nav ul li a:hover {
-    background-color: #333;
-    color: #fff;
-  }
-  
-  nav ul li ul {
-    position: absolute; /* Position the ul element absolutely */
-    top: 100%; /* Position it below the parent li element */
-    left: 0;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: none;
-  }
-  
-  nav ul li:hover ul {
-    display: block;
-  }
-  
-  nav ul li ul li {
-    display: block;
-  }
-  
-  nav ul li ul li a {
-    display: block;
-    padding: 10px;
-    margin: 0;
-    text-decoration: none;
-    color: #333;
-  }
-  
-  nav ul li ul li a:hover {
-    background-color: #333;
-    color: #fff;
-  }</style>
+<!--Use this template for JMB portfolio website. Based on Ruvalcaba and Boemhm (p. 95).
+Title: Portfolio Page
+Use: Use this template to build portfolio website.
+Author: Nicholas Rankin
+School/Term: University of Missouri, Spring 2023  
+Developed: 2/22/23
+Tested:  4/11/23
+-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects</title>
+<link rel="stylesheet" href="rankin.style.css">
+<link rel="stylesheet" href="rankin.nav.css">
+<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
-<!-- This is a complete comment header!
-<p><h1>Title: Nicholas Rankin's Website</h1></p>
+<link rel="shortcut icon" type="image/x-icon" href="../islt_7355/favicon.ico">
 
-<p>Use: For the Web Design and Development course, ISLT 7355S.</p>
+<!-- Attribution
 
-<p>Author: Nicholas Rankin</p>
-
-<p>School/Term: The University of Missouri Spring Semester 2023</p>
-
-<p>Developed: February, 03, 2023</p>
-
-<p>Tested: February, 05, 2023</p>
+Mail <a target="_blank" href="https://icons8.com/icon/6h0SHc9Rk376/mailbox">Mailbox</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+Phone <a target="_blank" href="https://icons8.com/icon/CDBUrtS3xT1f/rotary-dial-telephone">Rotary Dial Telephone</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/tNIlxNUlIry8/windrose">Windrose</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 -->
-               <meta charset="utf-8">
-               <title>Nicholas Rankin's Web Page Template</title>
-</head>
-<link href="style.css" rel="stylesheet">
-<link href="nav.css" rel="navigation">
 
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li>
-          <a href="#">Projects/Learn</a>
-          <ul>
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-          </ul>
-</nav>
+</head>
 <body>
-   
-    <footer>
-        <p>nr5dd@umsystem.edu copyright 2023</p>
-    </footer>
+    <nav>
+        <img src="https://raw.githubusercontent.com/Nicholasandriani/nicholasandriani.github.io/main/nicholas%20rankin%20logo%202023%202.jpg" class="logo" alt="Nicholas Rankin"> 
+        <label id="hamburger">&#9776;</label>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Project</a>
+                <ul id="mobileHide">
+                    <li><a href="../islt_7355/project.html#section-1">Japanese to English Translation</a></li>
+                    <li><a href="../islt_7355/project.html#section-2">Narrative Design and Game Writing</a></li>
+                    <li><a href="../islt_7355/project.html#section-3">Archaeology</a></li>
+                </ul>
+            </li>
+            <li><a href="reflection.html">Reflection</a></li>
+            <li class="lastMobile"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="header">
+        <h1>Projects</h1>
+        </header>
+    <main>
+
+<div class="flex-container wrapper">
+<section class="content">
+    <h2>Career Goals</h2>
+    <p>The Learning Technologies and Design (LTD) program at the University of Missouri includes the following three competencies:</p>
+        <ul>
+            <li>Goal 1: Creating engaging and immersive experiences: Whether you're writing a serious game or a work of fiction, one of the most important aspects is creating an experience that draws in the audience and immerses them in the world you've created. This requires a combination of strong writing, effective narrative design, and engaging gameplay or story elements.</li>
+            <li>Goal 2: Communicating valuable knowledge or ideas: While creating an engaging experience is important, it's equally important to ensure that the work you're creating is communicating something valuable to your audience. Whether it's teaching a new skill or raising awareness about a social issue, the work should have a clear purpose and message that resonates with the audience.</li>
+            <li>Goal 3: Expressing creativity and originality: As a writer, poet, and narrative designer, expressing your creativity and originality is a key aspect of achieving these goals. Whether it's through crafting unique characters, creating intricate worlds, or exploring complex themes and ideas, it's important to bring your own unique voice and perspective to the work. This can help to make your work stand out and resonate with your audience in a meaningful way.</li>
+        </ul> 
+    <p>I aligned the program competencies with the following projects: Creating Learner-Centered Instructional Content: An ASK System, Wayback Machine Redesign, and OER Adoption Strategies for Adjunct and Full-time Faculty at Los Angeles Harbor College: Adding Quality OER into Courses.</p>
+
+    <div class="button-container">
+    <a class="button" href="#section-1">Japanese to English Translation</a>
+
+    <a class="button" href="#section-2">Narrative Design and Game Writing</a>
+
+    <a class="button" href="#section-3">Archaeological Fieldwork in Jordan</a>
+
+    </div>
+
+<h3 id="section-1">Project 1: Japanese to English Translation | 夢十夜夏目漱石第五夜</h3>
+<img src="https://raw.githubusercontent.com/Nicholasandriani/nicholasandriani.github.io/main/natsume%20sosekis%20ten%20nights%20of%20dreams%20cover.jpg" alt="natsume sosekis ten nights of dreams, or 夢十夜夏目漱石第五夜 " style="width: 300px; height: auto;">
+<p>Translating Natsume Soseki's 夢十夜夏目漱石第五夜, the Ten Nights of Dreams, provded my most challenging service as a translator.</p>
+<p>Translating Natsume Soseki's "Ten Nights of Dreams" has great value, both for literary and cultural reasons. As a literary work, "Ten Nights of Dreams" is a fascinating exploration of the human psyche, with each of the ten stories offering a unique perspective on the workings of the mind. The stories are rich with symbolism and imagery, and they offer a nuanced and complex exploration of themes such as identity, memory, and mortality. Translating this work into other languages allows readers from different cultural backgrounds to access this unique and compelling exploration of the human condition.
+<p>Culturally, "Ten Nights of Dreams" is an important work because it is an example of early modern Japanese literature that has been translated and shared with a global audience. Natsume Soseki was a prominent figure in modern Japanese literature, and his works are considered to be some of the most important in the canon. By translating "Ten Nights of Dreams" into other languages, we are helping to promote cross-cultural understanding and appreciation for Japanese literature and culture. This, in turn, helps to foster greater empathy and connection between people from different parts of the world, and to promote a deeper appreciation for the diverse perspectives and experiences that make up our global community.</p>
+
+<br>
+<hr class="rounded">
+<br>
+
+<h3 id="section-2">Project 2: Narrative Design and Game Writing</h3>
+<img src="https://img.itch.zone/aW1nLzExNzg4MTQ3LmpwZWc=/347x500/9u9KIQ.jpeg" alt="interactive fiction and translation of Narrative Design project"I am a Cat by Natsume Soseki" style="width: 500px; height: auto;">
+<p><a href="https://nicholasandriani.itch.io/i-am-cat">I Am a Cat</a> is my translation and retelliong of one of Japan's most beloved fables by the author Natsume Soseki. The prospect of translating beloved fairytales and sweeping pieces of literature into the realm of interactive media fills me with immense joy.</p>
+
+<p>
+    As the owner of Bulba Bro's Development firm, I am filled with a great sense of pride and joy when I reflect on the narrative design and video game writing we have accomplished. Through our efforts, we have been able to create interactive narratives that have brought joy and pleasure to players across demographics and borders.
+    One of the most rewarding aspects of this work is seeing how games can bring people together, breaking down barriers and allowing individuals from all walks of life to connect through play. It is truly a beautiful thing to witness the power of games to transcend cultural differences, language barriers, and even physical distance.
+    At the heart of it all is the concept of "homo ludens," or the idea that play is an essential part of human nature.</p> 
+    <p>As game developers, we have the unique opportunity to tap into this innate desire to play and create experiences that can bring happiness, challenge, and fulfillment to players of all ages.
+    Writing for games is a unique challenge, as we must consider not only the narrative arc and character development but also the interactivity and player agency. But it is this challenge that makes the rewards all the more satisfying. To see players engage with our narratives, make choices that shape the story, and come away feeling fulfilled and entertained is truly an incredible feeling.
+    In the end, the beauty of play is that it brings people together in a way that few other things can. And as a game developer, I am grateful for the opportunity to contribute to this joy and pleasure through the stories we create..</p>
+<p>My work can be accessed by viewing my professional website at </p>
+<br>
+<hr class="rounded">
+<br>
+
+<h3 id="section-3">Project 3: Nabatean Research and Excavation in Wadi Musa, Jordan</h3>
+<img src="https://raw.githubusercontent.com/Nicholasandriani/nicholasandriani.github.io/main/fieldwork%20in%20jordan.jpg" alt="Nicholas Rankin excavation in Wadi Musa, Jordan" style="width: 500px; height: auto;">
+<p>My interest in stoytelling led me to a career in archaeology. I am a specialist of Nabatean culture and pre-Islamic Arabia, and conducted the majority of my research on <em>Nabatean trade routes</em> and exchanges of material culture. <em>Storytelling contenvtions</em>we have come to see as common place were entirely novel back then and much of what we now recognize as so-called "Western" society was cemented within our psyche at this time. </p>
+
+<p>My work centered around excavation of tradecamps along the Wadi Musa watershed, an area known for the  palasades carved into the sandstone walls of the slip canyons, or the city of Petra. I am proficient in GIS Mapping and Analysis, the archival handling of artifacts, and accession/cataloguing methodologiec. built our OER Institute using Microsoft Word (the schedule) and PowerPoint (slides). We included two presentations: <a href="https://drive.google.com/file/d/1tsxxh9v-ERMvX6z9oB1mzoCxcvZAZnbS/view?usp=share_link">The Basics of Open Educational Resources (OER)</a> and <a href="https://drive.google.com/file/d/10cWaWGdM49JGvLJSWR-86wwkvyvtPl1j/view?usp=share_link">Searching for OER</a>. The project resulted in an accurate representation of the assignment requirements.</p>
+<br><br>
+</section>
+</div>
+</main>
+<footer class="footer">
+    <p><img src="https://raw.githubusercontent.com/Nicholasandriani/nicholasandriani.github.io/main/mail%20symbol.png" class="social-icon" alt="mail icon"> <a href="mailto:nr5dd@umsystem.edu.edu">nr5dd@umsystem.edu</a> | <img src="https://raw.githubusercontent.com/Nicholasandriani/nicholasandriani.github.io/main/phone%20image.jpg" class="social-icon" alt="phone icon"> 1-888-888-8888</p>
+    <p>Copyright © 2023 Nicholas Rankin.</p> 
+</footer>
 </body>
 </html>
-
-<button><a rel="nicholasandriani.github.io/CV Spring 2023.pdf">example</a></button>

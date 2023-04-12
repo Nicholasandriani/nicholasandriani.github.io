@@ -1,96 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
-    <meta charset="UTF-7">
-        <link href="style.css" rel="stylesheet">
-        <link href="nav.css" rel="stylesheet">
+<!--Use this template for Ni portfolio website. Based on Ruvalcaba and Boemhm (p. 95).
+Title: Template Page
+Use: Use this template to build portfolio website.
+Author: Nicholas Rankin
+School/Term: University of Missouri, Spring 2023  
+Developed: 2/1/23
+Tested:  3/19/23
+-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Reflection</title>
+        <link rel="stylesheet" href="rankin.style.css">
+        <link rel="stylesheet" href="rankin.nav.css">
+        <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
-    <style>
-        <style>
-        .button {
-          background-color: #4CAF50;
-          border: dotted;
-          color: rgb(0, 0, 0);
-          padding: 15px 32px;
-          text-align: center;
-          text-decoration: none;
-          display: inline-block;
-          font-size: 16px;
-          margin: 4px 2px;
-          cursor: pointer;
-        }
+        <link rel="shortcut icon" type="image/x-icon" href="../islt_7355/favicon.ico">
+
         
-        @media only screen and (max-width: 768px) {
-    .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 5rem;
-        flex-direction: column;
-        background-color: #fff;
-        width: 100%;
-        border-radius: 10px;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
-    }
+    <!-- Attribution
 
-    .nav-menu.active {
-        left: 0;
-    }
+Mail <a target="_blank" href="https://icons8.com/icon/6h0SHc9Rk376/mailbox">Mailbox</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+Phone <a target="_blank" href="https://icons8.com/icon/CDBUrtS3xT1f/rotary-dial-telephone">Rotary Dial Telephone</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/tNIlxNUlIry8/windrose">Windrose</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+Photo by <a href="https://unsplash.com/@adrienolichon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adrien Olichon</a> on <a href="https://unsplash.com/photos/QrZEZGsRjJ0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-    .nav-item {
-        margin: 2.5rem 0;
-    }
+-->
 
-    .hamburger {
-        display: block;
-        cursor: pointer;
-    }
-
-}
-
-        </style>
-
-	</style>
-</head>
+    </head>
 <body>
-
-  
-
-  
+    
     <nav>
-      
-      <label id="hamburger">&#9776;</label>
-
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="reflection.html">Reflection</a></li>
-        <li><a href="Projects.html">Projects</a>
-          <ul>
-            <li><a href="#Archaeology">Archaeology</a></li>
-            <li><a href="#Game Design">Game & Narrative Design</a></li>
-            <li><a href="#Instructional Design">Instructional Design</a></li>
-            <li><a href="#writing">Writing</a></li>
-          </ul>
-        </li>
-        <li><a href="Contact.html">Contact</a></li>
-      </ul>
+        <img src="https://raw.githubusercontent.com/Nicholasandriani/nicholasandriani.github.io/main/nicholas%20rankin%20logo%202023%202.jpg" class="logo" alt="Nicholas Rankin"> 
+        <label id="hamburger">&#9776;</label>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Project</a>
+                <ul id="mobileHide">
+                    <li><a href="../islt_7355/project.html#section-1">Japanese to English Translation</a></li>
+                    <li><a href="../islt_7355/project.html#section-2">Narrative Design and Game Writing</a></li>
+                    <li><a href="../islt_7355/project.html#section-3">Archaeology</a></li>
+                </ul>
+            </li>
+            <li><a href="reflection.html">Reflection</a></li>
+            <li class="lastMobile"><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
-<body>
-	<h1>Contact</h1>
-  
 
 
-  <div class="wrapper">
-    <div>Social Media:</div></nav>
-    <div class="items contents"><body>
-      Email: nr5dd@umsystem.edu | Twitter: @nickandriani | Instagram: @nicholasandriani
-  </div>
-</body>
-<footer>
- Feel free to reach out with any questions, comments or concerns. I look forward to hearing from you!
+
+
+<header>
+    <div class="hero">
+        <h2 class="reflect">Contact</h2>
+    </div>
+</header>
+<main>
+<div class="flex-container wrapper">
+    <section class="content-2">
+        <!-- Content! -->
+    <h2>I look forward to hearing from you!</h2>
+    <p></p>
+    <p><img src="https://raw.githubusercontent.com/Nicholasandriani/nicholasandriani.github.io/main/mail%20symbol.png" class="social-icon" alt="mail icon"> <a href="mailto:nr5dd@umsystem.edu.edu">nr5dd@umsystem.edu</a> | <img src="https://raw.githubusercontent.com/Nicholasandriani/nicholasandriani.github.io/main/phone%20image.jpg" class="social-icon" alt="phone icon"> 1-888-888-8888</p>
+    <p><a href="https://twitter.com/nickandriani">Twitter</a></p>
+    <p><a href="https://www.linkedin.com/in/nicholas-rankin-035064129/">Linkedin</p>
+    <p><a href="https://nicholasandriani.com">Personal Website</p>
+    <br><br>
+</section>
+</div>
+</main>
+<footer class="footer">
+    <p><img src="https://raw.githubusercontent.com/Nicholasandriani/nicholasandriani.github.io/main/mail%20symbol.png" class="social-icon" alt="mail icon"> <a href="mailto:nr5dd@umsystem.edu.edu">nr5dd@umsystem.edu</a> | <img src="https://raw.githubusercontent.com/Nicholasandriani/nicholasandriani.github.io/main/phone%20image.jpg" class="social-icon" alt="phone icon"> 1-888-888-8888</p>
+    <p>Copyright © 2023 Nicholas Rankin.</p> 
 </footer>
-<footer>Created by Nicholas Rankin - copyright 2023 nr5dd@umsystem.edu</footer>
+</body>
 </html>

@@ -1,56 +1,86 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-
-
-    <link href="style.css" rel="stylesheet">
-    <link href="nav.css" rel="stylesheet">
-
-  
-<!--
-*****************************************************************************
-Title: Nicholas Rankin's Website</h1></p>
-Use: For the Web Design and Development course, ISLT 7355S.</p>
-Author: Nicholas Rankin</p>
-School/Term: The University of Missouri Spring Semester 2023</p>
-Developed: February, 03, 2023</p>
-<p>Tested: March, 02, 2023</p>
+<!--Use this template for Ni portfolio website. Based on Ruvalcaba and Boemhm (p. 95).
+Title: Template Page
+Use: Use this template to build portfolio website.
+Author: Nicholas Rankin
+School/Term: University of Missouri, Spring 2023  
+Developed: 2/1/23
+Tested:  3/19/23
 -->
-               <meta charset="utf-8">
-               <title>Nicholas Rankin's Web Page Template</title>
- 
-</head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Reflection</title>
+        <link rel="stylesheet" href="rankin.style.css">
+        <link rel="stylesheet" href="rankin.nav.css">
+        <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+        <link rel="shortcut icon" type="image/x-icon" href="../islt_7355/favicon.ico">
+
+        
+    <!-- Attribution
+
+Mail <a target="_blank" href="https://icons8.com/icon/6h0SHc9Rk376/mailbox">Mailbox</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+Phone <a target="_blank" href="https://icons8.com/icon/CDBUrtS3xT1f/rotary-dial-telephone">Rotary Dial Telephone</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/tNIlxNUlIry8/windrose">Windrose</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+Photo by <a href="https://unsplash.com/@adrienolichon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adrien Olichon</a> on <a href="https://unsplash.com/photos/QrZEZGsRjJ0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+-->
+
+    </head>
 <body>
-        <nav>
+    
+    <nav>
+        <img src="https://raw.githubusercontent.com/Nicholasandriani/nicholasandriani.github.io/main/nicholas%20rankin%20logo%202023%202.jpg" class="logo" alt="Nicholas Rankin"> 
+        <label id="hamburger">&#9776;</label>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#reflection.html">Reflection</a></li>
-          <li><a href="Projects.html">Projects</a>
-            <ul>
-              <li><a href="#Archaeology">Archaeology</a></li>
-              <li><a href="#Game Design">Game & Narrative Design</a></li>
-              <li><a href="#Instructional Design">Instructional Design</a></li>
-              <li><a href="#writing">Writing</a></li>
-            </ul>
-          </li>
-          <li><a href="#Contact">Contact</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Project</a>
+                <ul id="mobileHide">
+                    <li><a href="../islt_7355/project.html#section-1">Japanese to English Translation</a></li>
+                    <li><a href="../islt_7355/project.html#section-2">Narrative Design and Game Writing</a></li>
+                    <li><a href="../islt_7355/project.html#section-3">Archaeology</a></li>
+                </ul>
+            </li>
+            <li><a href="reflection.html">Reflection</a></li>
+            <li class="lastMobile"><a href="contact.html">Contact</a></li>
         </ul>
-      </nav>
-    
-    <h1>Personal Reflections</h1>
-        <p>Greetings, I'm Nicholas Andriani, and today I'm reflecting on my career aspirations as a game designer with a focus on narrative design and cross-cultural literacy between Japan and the United States.
+    </nav>
 
-    My background as a cultural anthropologist and literary critical theorist has greatly influenced my approach to game design. My research on East Asian religions, particularly Taoism, Zen, and Shinto, has given me a deep understanding of the cultural and philosophical underpinnings that shape these societies. In addition, my experience as a former archaeologist has instilled in me an appreciation for storytelling and the power of narrative to create immersive experiences.</p>
-    
-    <p style="text-indent: 25px;">As a game designer, my focus is on creating narrative-driven games that promote cross-cultural literacy. I believe that games have the potential to educate and inspire players, and I'm committed to leveraging this power to foster greater understanding and appreciation between Japan and the United States.</p>
-    
-    <p style="text-indent: 25px;">Throughout my career, I've had the opportunity to work on a variety of game projects, each one teaching me something new about narrative design and game development. I'm proud of my work in designing compelling storylines that not only entertain but also educate players on different cultures and philosophies.</p>
-    
-    <p style="text-indent: 25px;">Looking ahead, my career goal is to continue designing narrative-driven games that promote cross-cultural literacy and to collaborate with like-minded individuals to bring these projects to life. Whether it's working with educators to develop educational games for the classroom or partnering with game studios to create innovative and culturally enriching games, I'm excited to be a part of a movement that uses games as a tool for positive change.</p>
 
-    <p>
-<footer>nr5dd@umsystem.edu copyright 2023</footer>
-</p>
+
+
+<header>
+    <div class="hero">
+        <h1 class="reflect">Reflection</h1>
+    </div>
+</header>
+<main>
+<div class="flex-container wrapper">
+    <section class="content-2">
+        <!-- Content! -->
+    <h2>The Road So Far</h2>
+    <p>I'm Nicholas Rankin, and my career experiences have revolved around my passion for literature and storytelling. I've worked as a writer, poet, narrative designer, and archaeologist, all driven by my love for stories and their ability to shape the way we view the world.</p>
+
+        <p>As a writer, I've honed my skills in crafting narratives that engage readers and transport them to different worlds. I love weaving together complex characters, themes, and plots, and I believe that stories are a reflection of who we are as individuals and as a society. As a poet, I've delved deeper into the power of language and its ability to evoke emotion and paint vivid pictures in the minds of my readers.</p>
+        
+        <p>My work as a narrative designer has allowed me to use my love of storytelling to create immersive worlds for video games and interactive media. I believe that creating an experience for the audience is just as important as telling a story. My work as an archaeologist has also informed my approach to storytelling, as I recognize the significance of the stories we tell about the past in shaping our present and future.</p>
+        
+        Even in my free time, I pursue my love for literature and storytelling by translating poetry from Japanese to English. I believe that stories are not just entertainment, but an important reflection of our lives and experiences.
+        
+        Looking to the future, my career goals align with my passion for storytelling. I hope to continue writing and publishing my own work while also collaborating with others on narrative projects. I believe that by telling stories, I can make a positive impact on the world and help others see the importance of their own stories.</p>
+  
+    <p>I have lived in various places across the world, from Jordan to Spain, Texas to Missouri, and wherywhere I go I find that we're all alike in our longings, loves, and lives. So my goal in this life is to participate in bridging gaps between cultures and traditions.</p>
+<br><br>
+</section>
+</div>
+</main>
+<footer class="footer">
+    <p><img src="https://raw.githubusercontent.com/Nicholasandriani/nicholasandriani.github.io/main/mail%20symbol.png" class="social-icon" alt="mail icon"> <a href="mailto:nr5dd@umsystem.edu.edu">nr5dd@umsystem.edu</a> | <img src="https://raw.githubusercontent.com/Nicholasandriani/nicholasandriani.github.io/main/phone%20image.jpg" class="social-icon" alt="phone icon"> 1-888-888-8888</p>
+    <p>Copyright © 2023 Nicholas Rankin.</p> 
+</footer>
 </body>
 </html>
