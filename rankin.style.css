@@ -382,7 +382,7 @@ body {
 
 main {
   display:block;
-  height:175px;
+  height:100px;
 }
 
 header {
@@ -416,12 +416,12 @@ li {
 }
 
 .pet-image-container {
-  float:left;
+  float:center;
   padding:10px;
 }
 
 .dashboard {
-  float:left;
+  float:center;
   padding:20px;
 }
 
