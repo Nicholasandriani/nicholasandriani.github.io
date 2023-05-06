@@ -407,16 +407,6 @@ li {
   margin-bottom: 5px;
 }
 
-footer {
-  padding-top: 25px;
-  border-top: 1px solid black;
-}
-
-footer a {
-  float:left;
-  margin:5px;
-}
-
 .pet-image {
   height:150px;
 }
